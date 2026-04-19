@@ -67,3 +67,4 @@ function triangle(side1, side2, side3) {
     }
 }
 console.log(triangle(3, 5, 3));
+
