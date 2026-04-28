@@ -1,0 +1,64 @@
+-What is a variable in JavaScript?
+-Why do we use variables?
+-How do you declare a variable?
+-What is the difference between:
+    var
+    let
+    const
+-Can you redeclare variables?
+-Can you reassign variables?
+-What happens if you declare a variable without a value?
+-What is variable hoisting?
+-Which variables are hoisted?
+-Why is let and const safer than var?
+-Where are variables stored in JavaScript?
+-What is stack vs heap (basic idea)?
+-How are primitive values stored vs objects?
+-What is the difference between:
+    primitive data types
+    reference data types
+-List all JavaScript data types.
+-What is the difference between:
+    null
+    undefined
+-What is typeof operator?
+-What is the typeof null?
+Output
+-console.log(typeof NaN);
+-console.log(typeof []);
+-console.log(typeof {});
+-What happens when JavaScript runs a program?
+-What is the execution context?
+
+-Predict output
+-
+hoisting
+console.log(a);
+var a = 5;
+-
+console.log(b);
+let b = 10;
+--
+-What is the Temporal Dead Zone (TDZ)?
+-Why does let/const throw error but var doesn’t?
+
+-Predict output
+-
+sayHi();
+function sayHi() {
+  console.log("Hello");
+}
+--
+sayHi();
+var sayHi = function() {
+  console.log("Hello");
+};
+--
+let a = 1;
+{
+  let a = 2;
+  console.log(a);
+}
+console.log(a);
+--
+

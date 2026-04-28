@@ -1,0 +1,88 @@
+What is an operator in JavaScript?
+What is an operand?
+What is an expression?
+Name different types of operators in JavaScript.
+What are arithmetic operators?
+What are assignment operators?
+What are logical operators?
+What is ternary operator?
+What are bitwise operators?
+What are relational operators?
+What is operator precedence?
+What is instanceof?
+
+Predict output
+    console.log(10 + "5");
+    console.log("10" - 5);
+    console.log(2 ** 3);
+-
+    let a = 5;
+    console.log(a++);
+    console.log(a);
+-
+    let x = 10;
+    x += 5;
+    console.log(x);
+-
+    let y = 10;
+    y *= 2;
+    console.log(y);
+-
+    console.log(5 == "5");
+-
+    console.log(5 === "5");
+-
+    console.log(null == undefined);
+-
+    console.log(null === undefined);
+-
+    console.log(!true);
+-
+    console.log(true || false);
+-
+    console.log(true && false);
+-
+    console.log(0 || "Hello");
+-
+    console.log("Hi" && 0);
+-
+    let age = 18;
+    let result = age >= 18 ? "Adult" : "Minor";
+    console.log(result);
+-
+    console.log(5 & 1); //bitwise
+-
+    console.log("a" > "b");
+-
+    console.log(10 > 5);
+-
+    console.log(10 + 5 * 2 > 20);
+-
+    let arr = [];
+    console.log(arr instanceof Array);
+-
+    console.log((5 + 2) * "3");
+-
+    console.log(true + false);
+-
+    console.log([] + {});
+-
+    console.log("5" + 2 * 3);
+-
+
+
+-Convert this to ternary:
+    if (a > b) {
+    console.log("A");
+    } else {
+    console.log("B");
+    }
+
+Difference between
+++a  
+a++
+-
+==
+===
+
+

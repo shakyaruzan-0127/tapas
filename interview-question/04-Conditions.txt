@@ -1,0 +1,77 @@
+What is control flow in JavaScript?
+What is branching?
+Why do we need control flow?
+What are different types of control flow statements?
+What is the difference between:
+    conditional statements
+    loops
+What will happen if no condition matches in a program?
+What is if statement?
+What is if-else?
+What is else if?
+What is nested if?
+What is switch-case?
+When do we use switch?
+Difference between if-else and switch?
+When would you prefer:
+    if-else
+    switch
+Which is better for:
+    range checks (e.g. marks > 80)
+    exact value matching
+Write logic:
+    marks ≥ 90 → A
+    marks ≥ 75 → B
+    else → C
+    which is better? if or switch?
+
+
+Predict Output
+-
+    if (0) {
+    console.log("Hello");
+    } else {
+    console.log("World");
+    }
+-
+    if ("") {
+    console.log("A");
+    } else {
+    console.log("B");
+    }
+-
+    let a = 0;
+    if (a || "Hello") {
+    console.log("Runs");
+    }
+-
+    let x = 1;
+    switch (x) {
+    case 1:
+        console.log("A");
+    case 2:
+        console.log("B");
+    }
+-
+    let a = "0"; //string "0" is truthy
+    if (a) {
+    console.log("True");
+    } else {
+    console.log("False");
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

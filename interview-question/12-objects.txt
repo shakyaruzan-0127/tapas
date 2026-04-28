@@ -1,0 +1,222 @@
+What is an object in JavaScript?
+Why do we use objects?
+What is the difference between:
+    object
+    array
+How do you create an object using literal syntax?
+Difference between:
+    dot notation
+    bracket notation
+When is bracket notation required?
+Why does obj.first name fail?
+What are computed properties?
+What is a constructor function?
+What is a factory function?
+What is shallow copy?
+What is deep copy?
+Convert array to object — how?
+Difference between:
+    freeze
+    seal
+
+
+Main Points
+1. Creating Objects
+2. Accessing Properties
+3. Adding / Modifying Properties
+4. Deleting Properties
+5. Keys with Special Characters
+6. Dynamic Keys & Values
+7. Constructor Function
+8. Factory Function
+9. Object Shorthand
+10. Object Methods
+11. Nested Objects
+12. “in” Operator
+13. for...in Loop
+14. Object.keys()
+15. Object References
+16. Object.assign()
+17. Shallow vs Deep Copy
+18. Object ↔ Array Conversion
+19. freeze() & seal()
+20. hasOwn()
+21. Object Destructuring
+22. Aliases
+23. Nested Destructuring
+24. Destructuring in Functions
+25. Destructuring Return Value
+26. Destructuring in Loops
+27. Optional Chaining
+
+
+code for adding or modifying or deleting properties
+-
+    const obj = {};
+    obj.name = "Jerry";
+    console.log(obj);
+    //Adding Properties
+
+-
+    const obj = { age: 5 };
+    obj.age = 10;
+    console.log(obj.age);
+    //Modifying Properties
+
+-
+    const obj = { name: "Tom" };
+    delete obj.name;
+    console.log(obj.name);
+    //Deleting Properties
+
+--
+
+Predict output
+-
+    function Person(name) {
+    this.name = name;
+    }
+    const p1 = new Person("Tom");
+    console.log(p1.name);
+    //Constructor Function
+
+-
+    function createUser(name) {
+    return { name };
+    }
+    console.log(createUser("Jerry"));
+    //Factory Function
+
+-
+    const name = "Tom";
+    const obj = { name };
+    console.log(obj);
+    //Object Shorthand
+
+-
+    const obj = {
+    name: "Tom",
+    greet() {
+        console.log(this.name);
+        }
+    };
+    obj.greet();
+    //Object Method
+
+-
+    const obj = {
+    user: {
+        name: "Tom"
+        }
+    };
+    console.log(obj.user.name);
+    //Nested Objects
+
+-
+    const obj = { name: "Tom" };
+    console.log("name" in obj);
+    //in Operator
+
+-
+    const obj = { a: 1, b: 2 };
+    for (let key in obj) {
+    console.log(key, obj[key]);
+    }
+    //for...in loop
+
+-
+    const obj = { a: 1, b: 2 };
+    console.log(Object.keys(obj));
+    //Object keys()
+
+-
+    const obj1 = { a: 1 };
+    const obj2 = obj1;
+    obj2.a = 5;
+    console.log(obj1.a);
+    //Object Refrences
+
+-
+    const a = { x: 1 };
+    const b = { y: 2 };
+    const result = Object.assign({}, a, b);
+    console.log(result);
+    //Object assign()
+
+-
+    const obj = { a: 1, b: 2 };
+    console.log(Object.entries(obj));
+    //Object---Array conversion
+
+-
+    const obj = { a: 1 };
+    Object.freeze(obj);
+
+    obj.a = 5;
+    console.log(obj.a);
+    //freeze and seal
+
+-
+    const obj = { a: 1 };
+    console.log(Object.hasOwn(obj, "a"));
+    //hasOwn()
+
+-
+    const obj = { name: "Tom" };
+    const { name } = obj;
+    console.log(name);
+    //Object Destructuring
+
+-
+    const obj = { name: "Tom" };
+    const { name: userName } = obj;
+    console.log(userName);
+    //Aliases
+
+-
+    const obj = {
+    user: { name: "Tom" }
+    };
+
+    const {
+    user: { name }
+    } = obj;
+
+    console.log(name);
+    //Nested Destructuring
+
+-
+    function greet({ name }) {
+    console.log(name);
+    }
+
+    greet({ name: "Tom" });
+    //Destructuring in function
+
+-
+    function getUser() {
+    return { name: "Tom", age: 5 };
+    }
+        const { age } = getUser();
+        console.log(age);
+        //Destructuring in return value
+
+-
+    const users = [{ name: "A" }, { name: "B" }];
+
+    for (const { name } of users) {
+    console.log(name);
+    }
+    //Destructuring in loops
+
+-
+    const obj = {};
+    console.log(obj.user?.name);
+    //Optional Chaining
+
+-
+
+
+
+
+

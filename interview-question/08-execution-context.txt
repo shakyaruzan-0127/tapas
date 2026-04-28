@@ -1,0 +1,67 @@
+What is execution context in JavaScript?
+Why does JavaScript need execution context?
+What problems does execution context solve?
+What happens if execution context didn’t exist?
+What are the two phases of execution context?
+    creation phase 
+    execution phase
+What is lexical environment?
+What does “lexical” mean in JavaScript?
+What is lexical scope?
+How does JavaScript decide variable access?
+What are the components of execution context?
+    Variable Environment
+    Lexical Environment
+    this
+What happens in the creation phase?
+What happens in the execution phase?
+How is execution context related to hoisting?
+What is Global Execution Context?
+How many GECs exist?
+What gets stored in GEC during creation phase?
+What is Function Execution Context?
+When is a new execution context created?
+What is call stack?
+How does JavaScript manage multiple function calls?
+What is stack overflow?
+What is stack memory?
+What is heap memory?
+Where are primitives stored?
+Where are objects stored?
+
+
+predict Output and how code works
+-
+    var x = 10;
+    function a() {
+        console.log(x);
+    }
+        function b() {
+        var x = 20;
+        a();
+    }
+    b();
+-
+    var a = 1;
+    function foo() {
+    console.log(a);
+    var a = 2;
+    }
+
+    foo();
+-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

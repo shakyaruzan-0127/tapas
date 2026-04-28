@@ -1,0 +1,100 @@
+HTML & CSS Questions
+
+* Have you heard about semantic tags?
+* What are meta tags?
+* Tell me what are Flex and its properties.
+* What are the positions and types in CSS?
+* Where do we have to use absolute and where do we have to use relative positions?
+* What are Box model in CSS?
+
+JavaScript Questions
+
+* Tell me the difference between `let`, `var`, and `const`.
+* Could you please explain Temporal Dead Zone?
+* Why do we get `Uncaught ReferenceError` in the console? On which scenario can we get this kind of error?
+* What are the types of Hoisting in JS?
+* Can IIFE (Immediately Invoked Function Expression) work as hoisting or not?
+* Tell me the difference between rest operator and spread operator.
+* Is JavaScript synchronous or asynchronous?
+* What are the types of functions in JS?
+* What are Higher-Order Functions?
+* What are Callback Functions?
+* What is `this` keyword in JS?
+    * What happens when we `console.log(this)` in a function?
+    * What happens when we `console.log(this)` in an object?
+    * What happens when we `console.log(this)` simply in the window (global scope)?
+* Tell me the difference between Promises, Callback Hell, and `async/await`.
+* Do you know the types of Promises?
+* Before declaring `async`, can we use `await`?
+* What is object prototyping?
+* What is deep copy and shallow copy?
+* What are event bubbling and event capturing?
+* How exactly does JavaScript work (e.g., how API calls and Event Loop work)?
+* Tell me the difference between `map`, `filter`, and `reduce`.
+    * Can we do the same thing with `map` as `filter`?
+* Have you heard about currying function?
+* What is object destructuring?
+* Have you heard about `for...of` loop? What's its use and why do we sometimes use `for...of` instead of a normal `for` loop?
+* Tell me the difference between `forEach` and `for...in` loop.
+* Can we apply a loop over an object or not? If yes, what are the ways?
+* Tell me the difference between Fetch API and Axios.
+* Which method do you like to frequently use (Fetch or Axios) in your project and why?
+
+React.js Questions
+
+* Do you know what is Virtual DOM and Real DOM?
+* Can you please tell me about the life cycle in ReactJS?
+* What are pure components in ReactJS?
+* Have you worked on class-based components or not?
+* Do you know about controlled and uncontrolled components?
+    * Can we use `useState` in class-based components?
+* What are states and props?
+    * Why do we mainly focus on creating the state in ReactJS? Why don't we go for simply creating a variable and storing the data over there?
+* What are hooks in React?
+* Can we pass data from child to parent or not? If yes, how exactly does this work (explain with an example of a callback function)?
+* Have you heard about `useReducer`? How is it different from `useState`?
+    * How many parameters does `useReducer` hook take?
+* Have you heard about Context API?
+    * When do we prefer to use Context API and when do we prefer to use Redux?
+    * Can we use both Context API and Redux in a single project?
+* Tell me the whole structure of Redux – why we use it, what are its main pillars, and how we can achieve a global state.
+* Have you heard about Single Source of Truth?
+* Do you know about Redux Toolkit? How is it better than core Redux?
+    * What are the main features of Redux Toolkit that make it easier to write less code?
+* What is the main use of `useDispatch` and `useSelector`?
+* Scenario: You have a product listing page that calls a GET API automatically when the page loads to display a list of products. In which function or hook are you going to dispatch that action?
+    * What does it mean to use an empty dependency array in `useEffect`?
+* Scenario: You have a count state with an initial value of zero. There is a button that increments the count by one on click. Once the count value becomes five, you have to call a specific function (e.g., an alert function) without using an `if-else` condition directly in the `onClick` handler. How can you achieve this?
+    * Can we achieve this using `useEffect`?
+* Have you heard about middleware in React? What does it mean and how can we achieve it?
+* How will you call an API in Redux (specifically with Redux Toolkit)?
+    * Where are you going to define your functions (reducers or extra reducers)?
+* What are lazy loading and code splitting?
+* What are React Portals?
+* What are Profilers?
+* What are Render Props?
+* Is it good to use prop drilling or not in a small-scale project?
+* In React, do you know about pure functions?
+* Where do we have to use the `useRef` hook?
+    * Can we achieve the same scenario (focusing an input field on page load) without using `useRef`?
+* Tell me the difference between `useMemo` and `useCallback`.
+* Can we put our hooks in a variable?
+
+
+ANOTHER VIDEO
+1. what is closure and real time project implementation [concern more with real time example of the project]
+2. what is difference between promises and async await with example
+3. what is sync and async programming ?
+4. what is prototype and prototypical inheritance (follow up question with example)
+5. what is memoization explain with example
+6. what is event bubbling 
+7. where to use context api and reduce with usecases
+8. what is useMemo() and memo() 
+9. what is the limation of reactjs
+10.what is controlled and uncontrolled component in reactjs
+11.what are the technique to optimize reactjs and react native project (useMemo,useCallback)
+12.what is the impact of passing function as a prototype
+13.what is shallow copy and deep copy in js
+14.Machine coding round  (Modal and close button click in anywhere apart from modal. modal should be closed)
+15.what is error boundary explain with example
+16.what are the biggest challenge that you face in the past

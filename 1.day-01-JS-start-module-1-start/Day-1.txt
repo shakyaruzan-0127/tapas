@@ -1,0 +1,4 @@
+🎯 Goal of This Lesson
+What is JavaScript, and why should you learn it?
+Writing and running your first JavaScript code.
+Loading JavaScript in different ways (async, defer).

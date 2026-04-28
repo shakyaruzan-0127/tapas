@@ -1,0 +1,22 @@
+Fundamental JS questions
+🔹 Basic questions
+-What is JavaScript?
+-Is JavaScript a compiled or interpreted language?
+-Where is JavaScript used?
+-Can JavaScript run outside the browser?
+-How do you include JavaScript in HTML?
+-What makes JavaScript different from languages like Java or C++?
+-What is single-threaded in JavaScript?
+-What is the role of the JavaScript engine (like V8)?
+-What is ECMAScript?
+-Where should you place <script> in HTML?
+-What is the difference between:
+    normal <script>
+    defer
+    async
+-Which one should you use and when?
+-What happens when you open a <script> in the browser?
+-What is the difference between writing JS in:
+    browser console
+    script file
+-What is Node.js?

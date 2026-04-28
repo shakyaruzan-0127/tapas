@@ -1,0 +1,64 @@
+What is a closure in JavaScript?
+When is a closure created?
+Does a function always create a closure?
+What does a closure “remember”?
+What is the difference between:
+    function
+    closure
+What is lexical scope?
+Does a closure store values or references?
+What is a function factory?
+Where are closures used in real apps?
+Why is closure useful in:
+    counters
+    authentication
+    caching
+    private variables
+How would you create private variables using closure?
+What is a memory leak?
+Can closures cause memory leaks?
+What are advantages of closures?
+Why are closures useful in JavaScript?
+How are closures used in event listeners?
+
+
+Predict output
+-
+    function outer() {
+    let a = 10;
+
+    return function () {
+        console.log(a);
+    };
+    }
+
+    const fn = outer();
+    fn();
+--
+    function outer() {
+    let a = 10;
+
+    return function () {
+        let a = 20;
+        console.log(a);
+    };
+    }
+
+    const fn = outer();
+    fn();
+--
+    for (var i = 1; i <= 3; i++) {
+    setTimeout(function () {
+        console.log(i);
+    }, 1000);
+    }
+closure + var trap
+---
+4
+4
+4
+use let for fixing the above code
+
+
+
+

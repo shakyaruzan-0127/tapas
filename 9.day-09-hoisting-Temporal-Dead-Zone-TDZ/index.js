@@ -5,7 +5,7 @@ console.log('day-9');
 //Temporal Dead Zone = an area where you cannot access a variable until it is initialized
 {
     //TDZ started here for name variable
-    console.log(name);// Refrenc error //variable exists but is locked inside TDZ
+    //console.log(name);// Refrenc error //variable exists but is locked inside TDZ
     //some code
     //some code 
     let name = 'scarlet'; //TDZ ends here for name variable
@@ -41,6 +41,7 @@ GEC:
          */
 
 test();
+
 var test = function() { //only variable is hoisted. it is a function expression, so function expression doesnt work. 
     console.log('hello');
 }

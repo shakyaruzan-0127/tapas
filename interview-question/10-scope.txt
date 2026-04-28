@@ -1,0 +1,20 @@
+What is hoisting in JavaScript?
+Does JavaScript literally “move code to the top”?
+What actually happens during hoisting?
+Which phase of execution context is responsible for hoisting?
+Are variables fully initialized during hoisting?
+Are let and const hoisted?
+How does var behave during hoisting?
+How is let different from var in hoisting?
+Are let and const hoisted or not?
+What is TDZ?
+When does TDZ start and end?
+Are functions hoisted?
+Which one takes priority?
+    function
+    variable
+
+
+
+
+

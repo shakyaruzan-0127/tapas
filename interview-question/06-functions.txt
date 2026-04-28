@@ -1,0 +1,84 @@
+What is a function in JavaScript?
+Why do we use functions?
+What is the difference between function and variable?
+What are the benefits of using functions?
+What is function reusability?
+How do you define a function?
+How do you call (invoke) a function?
+What is a function expression?
+What is a parameter?
+What is an argument?
+What are default parameters?
+What is rest parameter?
+How would you sum all arguments using rest?
+Can inner function access outer variables? Why?
+
+What is a callback function?
+Why are callbacks useful?
+What is a pure function?
+What is a higher-order function?
+What is an arrow function?
+What is special about this in arrow functions? //(this)trap
+What is IIFE(immediately invoked function)?
+Why use IIFE?
+What is call stack?
+What is recursion?
+
+
+
+Predict Output
+-
+    sayHi();
+    var sayHi = function() {
+    console.log("Hi");
+    };
+    //hoisting trap
+-
+    function add(a, b) {
+    console.log(a + b);
+    }
+    add(2);
+    //2 + undefined = NaN
+-
+    function test(a = 5, b = a * 2) {
+    console.log(a, b);
+    }
+    test(3);
+-
+    function sum(...nums) {
+    console.log(nums);
+    }
+    sum(1, 2, 3);
+-
+    function operate(a, b, fn) {
+    return fn(a, b);
+    }
+    console.log(operate(2, 3, (x, y) => x + y));
+    //HOF
+-
+    function count(n) {
+    if (n === 0) return;
+    console.log(n);
+    count(n - 1);
+    }
+    count(3);
+    //What happens if there is no base case?
+-
+    function test(a, b) {
+    console.log(arguments);
+    }
+    test(1, 2, 3);
+-
+
+
+
+
+
+
+
+
+
+
+
+
+
