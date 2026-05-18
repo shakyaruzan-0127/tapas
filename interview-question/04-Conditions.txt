@@ -1,7 +1,19 @@
 What is control flow in JavaScript?
+    Control flow in JavaScript is the mechanism that determines the order in which statements are executed in a program.
+By default, code runs top to bottom (synchronously), but control flow statements allow us to change execution based on 
+conditions, loops, and function behavior.
+
 What is branching?
+“Branching means decision-making in code.”
+
 Why do we need control flow?
 What are different types of control flow statements?
+    We need control flow to make programs dynamic instead of strictly sequential. 
+    It allows us to make decisions, repeat operations, and control execution based on conditions or program state. 
+    The main types include conditional statements like if/else, looping statements like for and while, control statements like break, 
+    continue, and return, and error handling using try/catch. 
+    JavaScript also supports asynchronous control flow using promises and async/await.
+
 What is the difference between:
     conditional statements
     loops

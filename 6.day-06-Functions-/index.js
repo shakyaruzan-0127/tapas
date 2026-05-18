@@ -36,11 +36,13 @@ console.log(calc());
 
 //Rest Parameter
 function calculateThis(x, y, ...rest) {
+  //assign the other argument values as array in the rest parameter.
   console.log(x, y, rest);
 }
 
 calculateThis(1, 2, 3, 4, 5, 6, 7);
 
+//nested function
 function outer() {
   console.log("outer");
   return function inner() {
@@ -64,7 +66,7 @@ console.log(greeting("scarlet"));
 //callback function
 function foo(func) {
   console.log("foo");
-    func();
+  func();
 }
 foo(function () {
   console.log("buz");

@@ -1,10 +1,25 @@
 /* for (initialization; condition; update) {
     code
 } */
+//for loop
 let count = 1;
 for (count; count <= 5; count++) {
   console.log("iteration/loop", count);
 }
+
+//while loop
+let count2 = 1;
+while (count2 <= 5) {
+  console.log("while loop", count2);
+  count2++;
+}
+
+//do while loop
+let count3 = 1;
+do {
+  console.log('do while', count3);
+  count3++;
+} while (count3 <= 6);
 
 //addition of even number between 1 to 100
 let sum = 0;
@@ -71,7 +86,6 @@ do {
  */
 let num = 1;
 do {
-    console.log(num);
-    num++;
-} while(num <= 5)
-    
+  console.log(num);
+  num++;
+} while (num <= 5);
