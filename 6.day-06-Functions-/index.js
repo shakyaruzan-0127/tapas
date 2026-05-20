@@ -72,6 +72,10 @@ foo(function () {
   console.log("buz");
 });
 
+/* A callback function is:
+A function passed as an argument to another function,
+so it can be executed later. */
+
 //callback 2
 function sayHi() {
   console.log("hi");
@@ -82,6 +86,7 @@ function great(callback) {
 great(sayHi);
 
 //HoF Higher order Function
+//
 
 function doTask(task) {
   task();
@@ -116,15 +121,22 @@ let greetMe = (greetingMessage) => {
 };
 greetMe("yo");
 
+
 let goat = (cow) => {
   return cow + "green";
 };
+//let goat = (cow) => cow + 'milk'; single line arrow function 
+
 console.log(goat("hi "));
 
 //IIFE immediately invoked function expression
 (function (count) {
   console.log("IIFE", count);
 })(1);
+//IIFE 2
+(function () {
+  console.log("Hello");
+})();
 
 // Recursion
 function fetchWater(count) {
